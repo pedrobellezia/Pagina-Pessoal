@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de um Site Pessoal em HTML</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 style="font-family: sans-serif;">Apresentação Pessoal</h1>
+        <h4>Pedro Dal Mas Bellezia Sena</h4>
+    </header>
+
+    <section id="about-me" style="text-align: center;">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Pedro, tenho 21 anos, sou natural do Rio de Janeiro, Me mudei para Palhoça há 4 anos em busca de
+            oportunidade
+            e estou atualmente no primeiro semestre de análise e desenvolvimento de sistemas na FMP e empregado como
+            estagiário de T.I. na câmara municipal de São José</p>
+    </section>
+
+    <section id="hobby" >
+        <h3 style="margin: 10px;">Meus Hobbies</h3>
+        <ul>
+            <li>Assistir filmes de found footage</li>
+            <li>Natação</li>
+            <li>Minecraft</li>
+            <li>Cozinhar</li>
+        </ul>
+    </section>
+
+    <div id="cont">
+
+        <h3>Contato</h3>
+
+        <div>
+            <a href="mailto:pedrodalcontato@gmail.com" style="text-decoration: none; margin-right: 20px;"><i class="bi bi-envelope-at"
+                    style="color: red;"></i></a>
+            <a href="wa.me/48974001141" style="text-decoration: none;"></a><i class="bi bi-whatsapp" style="color: green;"></i></a>
+        </div>
+    </div>
+
+
+
+    <section class="form-section" id="contact-form">
+        <h2>Deixe um Comentário</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required class="formitem">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required class="formitem">
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" maxlength="200" placeholder="Limite de 200 caracteres"
+                class="formitem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Pedro Dal - 2024</p>
+    </footer>
+
+</body>
+
+</html>

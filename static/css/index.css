@@ -1,0 +1,110 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+header,
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.form-section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form-section label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #4b4a4a98;
+    background-color: #222;
+    color: #E0E0E0;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.form-section button {
+    padding: 0.7em;
+    font-size: 1em;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-section button:hover,
+.form-section button:focus {
+    background-color: #555;
+    transform: scale(1.05);
+    outline: none;
+}
+
+.form-section input:focus,
+.form-section select:focus,
+.form-section textarea:focus {
+    border-color: #666;
+    outline: none;
+}
+
+#hobby {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
